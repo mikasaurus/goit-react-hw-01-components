@@ -1,0 +1,19 @@
+.transactionHistory {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.name {
+  background-color: #1b9c85;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  width: 75px;
+  text-transform: uppercase;
+}
+
+.data {
+  background-color: #e8f6ef;
+  padding: 5px;
+  text-align: center;
+}
