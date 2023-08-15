@@ -36,5 +36,9 @@ Profile.propTypes = {
   tag: PropTypes.string,
   location: PropTypes.string,
   avatar: PropTypes.string,
-  stats: PropTypes.object,
+  stats: PropTypes.shape({
+    followers: PropTypes.string,
+    views: PropTypes.string,
+    likes: PropTypes.string,
+  }),
 };
